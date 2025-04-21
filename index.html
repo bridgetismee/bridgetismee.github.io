@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" class="html-index">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JobBoard - Find Your Internship</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h2 class="logo">InternSync</h2>
+    <nav class="navigation">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="aboutus.html">About Us</a>
+      <a href="contactus.html">Contact Us</a>
+      <a href="dashboard.html">Internship Opportunities</a>
+   
+      <div id="loginWrapper">
+        <button onclick="location.href='login.html'" class="btnLogin-popup">Login</button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <div class="hero-image">
+    <img src="assets/images/infocharacter2.png" alt="Intern Running Late">
+  </div>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>We Sweat the Details So You Don’t Have To</h1>
+      <h2>Syncing students and fresh grads with top internship opportunities at leading companies around the globe.</h2>
+      <h3>Sprint Less, Score More – InternSync Has You Covered! . 
+        View internship opportunities and gain access to our exclusive resources and tools to help you land your dream internship!</h3>
+       <p> Login to have a personalized experience with InternSync</p>
+     
+  <a href="dashboard.html" class="internship-btn">View Our Internship Opportunities</a>
+    
+
+    <aside class="quiz-card">
+      <p class="quiz-card-title">
+        Not sure where to start? Take our <strong>personality × career</strong> quiz to find your perfect internship!
+      </p>
+      <a href="quiz.html">
+        <button class="quiz-nav-button">Take the Quiz</button>
+      </a>
+    </aside>
+  </section>
+
+  <div id="loginPopup" class="popup-overlay hidden">
+    <div class="hero-text-wrapper">
+  </div>
+  </div>
+ 
+   
+  
+<!-- JS Auth Script -->
+<script src="assets/js/auth.js"></script>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
